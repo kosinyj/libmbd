@@ -1,0 +1,4 @@
+HK/GSz:
+temporary fix for the QE build system (need mpi and scalapack)
+include the following steps into QE archive based build system:
+export FXX=$(MPIF90); export FXXOPT=$(F90FLAGS); make -f scalapack-mpi.make
